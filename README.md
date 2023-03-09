@@ -2,12 +2,14 @@
 
 Makes Obsidian nice to think in.
 
+<img src="promo_screenshot.png" width="900" />
+
 ## Installation
 
 For now just copy the theme.css file to snippets.
 
 
-## Optional settings:
+## Optional settings
 - Go to Settings → Appearance
 	- Set your accent color to `#18BEEC`
 	- Turn off 'Show tab title bar' option
