@@ -2,7 +2,7 @@
 
 Makes Obsidian nice to think in.
 
-<img src="promo_screenshot.png" width="900" />
+<img src="big_ass_screenshot.png" width="900" />
 
 ## Installation
 
