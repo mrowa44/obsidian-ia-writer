@@ -163,7 +163,20 @@ input[type=checkbox]:checked::after {
   content: "[x]";
   color: var(--text-muted);
 }
+.markdown-source-view.mod-cm6 .task-list-item-checkbox {
+  margin-left: 10px;
+}
+
+
 .nav-buttons-container {
   justify-content: flex-start;
   margin-left: 8px;
+}
+
+.markdown-source-view.mod-cm6 .cm-highlight .is-unresolved {
+  color: var(--text-normal);
+}
+
+.theme-dark .cm-s-obsidian .cm-hmd-frontmatter.cm-atom {
+  color: var(--color-accent);
 }
