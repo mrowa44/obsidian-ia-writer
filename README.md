@@ -1,12 +1,16 @@
-# Obsidian Template Theme
+# Obsidian iA Writer theme
 
-Press `Use this template` to use this template for your Obsidian theme!
+Makes Obsidian nice to think in.
 
-## Get started
-- [Guides for Obsidian Theme Designers](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Theme+Designers)
-- [Theme Design Utilities Plugin](https://github.com/chrisgrieser/obsidian-theme-design-utilities)
-- [Example vault with a huge collection of test notes](https://github.com/obsidian-community/theme-dev-vault)
+## Installation
 
-## Theme Ready?
-- Replace the `promo_screenshot.png` with a screenshot of your theme.
-- [How to add your theme to the community theme store](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/How+to+add+your+theme+to+the+community+theme+store)
+For now just copy the theme.css file to snippets.
+
+
+## Optional settings:
+- Go to Settings → Appearance
+	- Set your accent color to `#18BEEC`
+	- Turn off 'Show tab title bar' option
+	- Turn on 'Translucent window' option
+- In Settings → Editor turn off 'Show indentation guides'
+- Install [hider plugin]([](https://github.com/kepano/obsidian-hider)) and hide UI elements for a cleaner look
