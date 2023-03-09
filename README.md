@@ -17,5 +17,9 @@ For now just copy the theme.css file to snippets.
 - In Settings → Editor turn off 'Show indentation guides'
 - Install [hider plugin]([](https://github.com/kepano/obsidian-hider)) and hide UI elements for a cleaner look
 
+
+## Support
+<a href="https://www.buymeacoffee.com/mrowa44"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee lol&emoji=&slug=mrowa44&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
 ## License
 MIT
