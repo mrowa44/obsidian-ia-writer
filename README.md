@@ -16,3 +16,6 @@ For now just copy the theme.css file to snippets.
 	- Turn on 'Translucent window' option
 - In Settings → Editor turn off 'Show indentation guides'
 - Install [hider plugin]([](https://github.com/kepano/obsidian-hider)) and hide UI elements for a cleaner look
+
+## License
+MIT
