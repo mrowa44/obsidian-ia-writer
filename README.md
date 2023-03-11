@@ -6,7 +6,10 @@ Makes Obsidian nice to think in.
 
 ## Installation
 
-For now just copy the theme.css file to snippets.
+- Open Obsidian Settings
+- Go to Appearance and click Manage
+- Search for "iA Writer"
+- Click the "Install and Use" button
 
 
 ## Optional settings
