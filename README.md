@@ -20,6 +20,9 @@ Makes Obsidian nice to think in.
 - In Settings → Editor turn off 'Show indentation guides'
 - Install [hider plugin]([](https://github.com/kepano/obsidian-hider)) and hide UI elements for a cleaner look
 
+## Related
+- [Focus Active Sentence](https://github.com/artisticat1/focus-active-sentence) plugin
+- [Natural Language Syntax Highlighting](https://github.com/artisticat1/nl-syntax-highlighting) plugin
 
 ## Support
 <a href="https://www.buymeacoffee.com/mrowa44"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee lol&emoji=&slug=mrowa44&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
