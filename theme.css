@@ -37,7 +37,7 @@ body {
   --h6-size: var(--font-text-size);
   --vault-name-font-weight: 600;
 
-  --file-line-width: min(850px, 95vw);
+  --file-line-width: min(800px, 85vw);
   --file-margins: 64px 32px 32px 32px;
 
   --h1-color: var(--text-normal);
@@ -58,13 +58,12 @@ body {
   --nav-item-background-active: transparent;
   --nav-item-background-hover: transparent;
   --link-unresolved-opacity: 1;
-
-  /* --primary: #18BEEC; */
+  --list-marker-color: var(--text-normal);
+  --titlebar-background-focused: var(--background-secondary);
 }
 
 .theme-light,
 .theme-dark {
-  /* --font-text: "iA Writer Duo"; */
   --font-text: "iA Writer Duo", var(--font-text-override), "iA Writer Duo", var(--font-interface);
   --link-decoration: underline;
   --link-unresolved-decoration-color: var(--text-muted);
@@ -131,7 +130,7 @@ input[type=checkbox]:not(:checked)::after {
   font-family: var(--font-text);
   white-space: nowrap;
   top: -4px;
-  left: -10px;
+  left: -8px;
   position: absolute;
   display: block;
 }
@@ -145,6 +144,23 @@ input[type=checkbox]:checked::after {
 }
 .markdown-source-view.mod-cm6 .task-list-item-checkbox {
   margin-left: 10px;
+}
+
+.list-bullet {
+  color: var(--list-marker-color);
+}
+.list-bullet::after {
+  display: none;
+}
+.markdown-rendered ul.has-list-bullet {
+  list-style-type: '- ';
+}
+.markdown-rendered ul.has-list-bullet > li::marker {
+  color: var(--list-marker-color);
+}
+.canvas-node-container input[type=checkbox]:checked::after,
+.canvas-node-container input[type=checkbox]:not(:checked)::after {
+  left: -12px;
 }
 
 
