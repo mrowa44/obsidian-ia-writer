@@ -37,7 +37,7 @@ body {
   --h6-size: var(--font-text-size);
   --vault-name-font-weight: 600;
 
-  --file-line-width: min(800px, 85vw);
+  --file-line-width: min(800px, 98vw);
   --file-margins: 64px 32px 32px 32px;
 
   --h1-color: var(--text-normal);
