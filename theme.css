@@ -65,6 +65,7 @@ body {
 .theme-light,
 .theme-dark {
   --font-text: "iA Writer Duo", var(--font-text-override), "iA Writer Duo", var(--font-interface);
+  --line-height-normal: 1.7;
   --link-decoration: underline;
   --link-unresolved-decoration-color: var(--text-muted);
   --link-external-decoration-color: var(--text-muted);
@@ -81,15 +82,17 @@ body {
   --text-muted: #B5B3B1;
   --text-highlight-bg: #FCEA95;
   --text-highlight-border: 4px solid #FFD700;
+  --text-highlight-color: var(--text-normal);
 }
 
 .theme-dark {
-  --background-primary: #1A1A1A;
+  --background-primary: #1B1B1B;
   --background-secondary: #141414;
   --text-normal: #CCC;
   --text-muted: #707070;
   --text-highlight-bg: #494113;
   --text-highlight-border: 4px solid #D4B000;
+  --text-highlight-color: #DCCF99;
 }
 
 .inline-title {
@@ -108,8 +111,12 @@ body {
   text-decoration-style: dotted;
   text-decoration-color: var(--text-muted);
 }
+
 .cm-highlight {
   border-bottom: var(--text-highlight-border);
+}
+.cm-s-obsidian span.cm-formatting-highlight, .cm-s-obsidian span.cm-highlight {
+  color: var(--text-highlight-color);
 }
 
 .nav-file-title.is-active {
@@ -175,4 +182,13 @@ input[type=checkbox]:checked::after {
 
 .theme-dark .cm-s-obsidian .cm-hmd-frontmatter.cm-atom {
   color: var(--color-accent);
+}
+
+.cm-line {
+  letter-spacing: 0.02em;
+}
+
+.ͼ1 .cm-cursor {
+  /* hide the fake cursor when selecting text */
+  display: none !important;
 }
